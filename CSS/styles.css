@@ -1,0 +1,137 @@
+body {
+  font-family: "Red Hat Mono", monospace;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border: 20px none;
+  border-top: 20px dotted white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4.37rem;
+  font-family: "Silkscreen", cursive;
+}
+h1:hover {
+  color: white;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 160px;
+  top: 200px;
+}
+
+.awebdev {
+  font-family: "Red Hat Mono", monospace;
+  font-size: 1.5rem;
+}
+
+/*set to relative so all element relative to the parent not the whole body tag*/
+.top-container {
+  background-color: #fef9a7;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: #ffd56b;
+}
+.bottom-container {
+  background-color: #fef9a7;
+  padding: 30px 0;
+}
+
+.thaiwoman {
+  background-color: #fef9a7;
+  border-radius: 50%;
+  margin-top: 40px;
+  width: 200px;
+}
+.skill-row {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/* Images go down to the size of 25% according to the parent <div> not <body>*/
+/*find out how to put the description left aligh evenly and not wrap aroung the image after putting text-align*/
+.htmlcss-skillimg {
+  margin-right: 30px;
+  width: 20%;
+  float: left;
+}
+
+.language-skillimg {
+  margin-left: 30px;
+  width: 20%;
+  float: right;
+}
+
+
+.contactme-card {
+  border: 1px solid black;
+  max-width: 1000px;
+  background-color: #ffb26b;
+  margin: 30px auto;
+  width: 100%;
+  box-shadow: shadow;
+}
+
+.contactme-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*this code change font-family in placeholder for only chrome*/
+.contactme-body-message,
+.contactme-body-email,
+.contactme-body-name,.contactme-body-submit::-webkit-input-placeholder {
+  font-family: "Red Hat Mono", monospace;
+}
+
+ 
+  input,
+button,
+textarea {
+  border: 3px solid black;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 2%;
+  box-shadow: none;
+}
+
+  input,
+button,
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+  min-height: 30px;
+  max-height: 50px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+}
