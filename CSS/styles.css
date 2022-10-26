@@ -31,6 +31,13 @@ h1:hover {
   top: 200px;
 }
 
+.haweii-mountain{
+  position: static;
+  z-index: 1;
+  width: 90%;
+
+}
+
 .awebdev {
   font-family: "Red Hat Mono", monospace;
   font-size: 1.5rem;
@@ -40,6 +47,8 @@ h1:hover {
 .top-container {
   background-color: #fef9a7;
   padding-top: 100px;
+  position: relative;
+  z-index: -1;
 }
 .middle-container {
   background-color: #ffd56b;
@@ -135,3 +144,23 @@ a{
 a:hover{
     color: coral;
 }
+
+@media (max-width: 1020px) {
+  .top-cloud {
+    position: absolute;
+    right:1px;
+    top: 40px;
+    opacity: 0.5;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 1px;
+    top: 350px;
+    opacity: 0.5;
+    z-index: -1;
+    
+  
+  }
+
+}
+  
